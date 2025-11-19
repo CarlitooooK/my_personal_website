@@ -154,7 +154,7 @@ export function ContactForm() {
                 <Mail className="h-8 w-8 text-primary mb-4" />
                 <h3 className="font-semibold mb-2">Email</h3>
                 <p className="text-sm text-muted-foreground">
-                  contacto@developer.com
+                  cabreracarlo772@gmail.com
                 </p>
               </Card>
 
@@ -162,7 +162,7 @@ export function ContactForm() {
                 <Phone className="h-8 w-8 text-accent mb-4" />
                 <h3 className="font-semibold mb-2">Teléfono</h3>
                 <p className="text-sm text-muted-foreground">
-                  +52 123 456 7890
+                  +52 221 838 0451
                 </p>
               </Card>
 
@@ -170,9 +170,9 @@ export function ContactForm() {
                 <MapPin className="h-8 w-8 text-primary mb-4" />
                 <h3 className="font-semibold mb-2">Ubicación</h3>
                 <p className="text-sm text-muted-foreground">
-                  Ciudad de México, México
+                  Puebla, México
                 </p>
-              </Card>
+              </Card> 
             </div>
           </div>
         </div>

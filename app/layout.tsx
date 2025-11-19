@@ -3,8 +3,8 @@ import { Inter, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _inter = Inter({ subsets: ["latin"] });
-const _jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Portfolio - Desarrollador Mobile & Frontend',
@@ -36,7 +36,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`font-sans antialiased`}>
+      <body className={`${inter.className} antialiased`} style={{ 
+        fontFamily: `${inter.style.fontFamily}, ${jetbrainsMono.style.fontFamily}` 
+      }}>
         {children}
         <Analytics />
       </body>

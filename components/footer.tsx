@@ -17,22 +17,18 @@ export function Footer() {
 
           <div className="flex items-center gap-4">
             <Button size="icon" variant="ghost" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/CarlitooooK" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
               </a>
             </Button>
             <Button size="icon" variant="ghost" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/carlocabrera772" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
+            
             <Button size="icon" variant="ghost" asChild>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <Twitter className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button size="icon" variant="ghost" asChild>
-              <a href="mailto:contacto@developer.com">
+              <a href="mailto:cabreracarlo772@gmail.com">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>

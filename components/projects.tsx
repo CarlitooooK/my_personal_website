@@ -8,53 +8,22 @@ import { ExternalLink, Github } from 'lucide-react'
 
 const projects = [
   {
-    title: 'App de E-commerce Móvil',
-    description: 'Aplicación móvil nativa para Android con sistema de pagos integrado, carrito de compras y notificaciones push.',
-    image: '/modern-mobile-ecommerce-app-interface.jpg',
-    tags: ['Kotlin', 'Jetpack Compose', 'Firebase', 'MVVM'],
+    title: 'Bluey - App de Gastos e Ingresos',
+    description: 'Aplicación móvil multiplataforma para el seguimiento de gastos e ingresos, con gráficos y estadísticas.',
+    image: '/blue_money_banner.png',
+    tags: ['Flutter', 'Dart', 'Firebase', 'MVVM'],
     demoUrl: '#',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/CarlitooooK/BlueMoneey.git'
   },
+  
   {
-    title: 'Dashboard Administrativo',
-    description: 'Panel de administración web con gráficos interactivos, gestión de usuarios y análisis de datos en tiempo real.',
+    title: 'Miyo - App de Aprendizaje potenciada por IA',
+    description: 'App de aprendizaje adaptativo con IA: Planes de aprendizaje personalizados, rendimiento optimizado y aprendizaje de alta eficiencia para todos con generador de rutas de aprendizaje con Gemini',
     image: '/modern-admin-dashboard.png',
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Chart.js'],
+    tags: ['Android', 'Kotlin', 'Jetpack Compose', 'Firebase', 'Gemini AI'],
     demoUrl: '#',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/CarlitooooK/Miyo_App.git'
   },
-  {
-    title: 'App de Fitness Multiplataforma',
-    description: 'Aplicación multiplataforma para seguimiento de ejercicios, planes de entrenamiento y estadísticas de progreso.',
-    image: '/fitness-tracking-app.png',
-    tags: ['Flutter', 'Dart', 'SQLite', 'Provider'],
-    demoUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    title: 'Red Social para Desarrolladores',
-    description: 'Plataforma web para compartir código, colaborar en proyectos y conectar con otros desarrolladores.',
-    image: '/developer-social-network-interface.jpg',
-    tags: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
-    demoUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    title: 'App de Delivery en Tiempo Real',
-    description: 'Sistema de delivery con rastreo GPS en tiempo real, chat integrado y gestión de pedidos.',
-    image: '/food-delivery-app-tracking.jpg',
-    tags: ['Android', 'Kotlin', 'Google Maps API', 'Coroutines'],
-    demoUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    title: 'Portfolio Interactivo',
-    description: 'Sitio web portfolio con animaciones 3D, modo oscuro y diseño totalmente responsivo.',
-    image: '/interactive-portfolio-website.jpg',
-    tags: ['React', 'Three.js', 'Framer Motion', 'CSS'],
-    demoUrl: '#',
-    githubUrl: '#'
-  }
 ]
 
 export function Projects() {
