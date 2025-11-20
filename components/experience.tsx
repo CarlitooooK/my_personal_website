@@ -6,17 +6,17 @@ import { Badge } from '@/components/ui/badge'
 
 const experiences = [
   {
-    title: 'Desarrollador Mobile Junior',
+    title: 'Desarrollador de Aplicaciones Móviles',
     company: 'FreeLance',
     period: '2024 - Presente',
-    description: 'Desarrollo de aplicaciones móviles nativas para Android utilizando Kotlin y Jetpack Compose. Implementación de arquitecturas MVVM y Clean Architecture.',
-    tags: ['Kotlin', 'Android', 'Jetpack Compose', 'MVVM','Firebase']
+    description: 'Desarrollo de aplicaciones móviles nativas para Android utilizando Kotlin y Jetpack Compose y multiplataforma utilizando Flutter con Dart. Implementación de arquitecturas MVVM y Clean Architecture.',
+    tags: ['Kotlin', 'Dart', 'Android', 'Jetpack Compose','Flutter', 'MVVM','Firebase']
   },
   {
     title: 'Ingeniero de Software',
     company: 'Grupo Cinemex',
-    period: '20224-2025',
-    description: 'Mantenimiento y consultas al servidor y base de datos de Grupo Cinemex. Elaboración de listas de proyección y tares de pauta de peliculas',
+    period: '2024-2025',
+    description: 'Mantenimiento y consultas al servidor y base de datos de Grupo Cinemex. Elaboración de listas de proyección y tareas de pauta de peliculas',
     tags: ['JavaScript', 'SQL', 'Linux']
     
   },
@@ -25,7 +25,7 @@ const experiences = [
     company: 'Freelance',
     period: '2022 - Presente',
     description: 'Desarrollo de interfaces de usuario responsivas y dinámicas. Optimización de rendimiento y experiencia de usuario.',
-    tags: ['React', 'Flutter', 'Node.js', 'Firebase']
+    tags: ['React', 'Flutter', 'Node.js', 'Firebase','HTML5', 'CSS3']
   }
 ]
 

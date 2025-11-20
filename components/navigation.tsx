@@ -1,8 +1,11 @@
+// ...existing code...
 'use client'
 
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
-import { Moon, Sun, Menu, X } from 'lucide-react'
+import { Moon, Sun, Menu, X, Github, Linkedin } from 'lucide-react'
+// ...existing code...
+
 
 export function Navigation() {
   const [isDark, setIsDark] = useState(false)
@@ -32,6 +35,7 @@ export function Navigation() {
       setIsMenuOpen(false)
     }
   }
+  // ...existing code...
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -43,7 +47,7 @@ export function Navigation() {
             onClick={() => scrollToSection('hero')}
             className="text-xl font-bold text-primary hover:text-accent transition-colors"
           >
-            {'<Dev />'}
+            {'<CarloDev />'}
           </button>
 
           {/* Desktop Navigation */}
@@ -63,14 +67,40 @@ export function Navigation() {
             <button onClick={() => scrollToSection('contact')} className="text-sm hover:text-primary transition-colors">
               Contacto
             </button>
-            <Button
-              size="icon"
-              variant="ghost"
-              onClick={() => setIsDark(!isDark)}
-              className="rounded-full"
-            >
-              {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-            </Button>
+
+            {/* Social icons */}
+            <div className="flex items-center gap-2">
+              <a
+                href="https://github.com/CarlitooooK" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <Button size="icon" variant="ghost" className="rounded-full">
+                  <Github className="h-4 w-4" />
+                </Button>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/carlocabrera772" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <Button size="icon" variant="ghost" className="rounded-full">
+                  <Linkedin className="h-4 w-4" />
+                </Button>
+              </a>
+
+              <Button
+                size="icon"
+                variant="ghost"
+                onClick={() => setIsDark(!isDark)}
+                className="rounded-full"
+              >
+                {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+              </Button>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -111,9 +141,34 @@ export function Navigation() {
             <button onClick={() => scrollToSection('contact')} className="text-left py-2 hover:text-primary transition-colors">
               Contacto
             </button>
+
+            {/* Social icons mobile */}
+            <div className="flex items-center gap-2 pt-2">
+              <a
+                href="https://github.com/tu-usuario"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <Button size="icon" variant="ghost">
+                  <Github className="h-4 w-4" />
+                </Button>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/tu-usuario"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <Button size="icon" variant="ghost">
+                  <Linkedin className="h-4 w-4" />
+                </Button>
+              </a>
+            </div>
           </div>
         )}
       </div>
     </nav>
   )
 }
+// ...existing code...

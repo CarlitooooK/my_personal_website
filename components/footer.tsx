@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <div className="text-2xl font-bold text-primary mb-2">
-              {'<Dev />'}
+              {'<CarloDev />'}
             </div>
             <p className="text-sm text-muted-foreground">
               Desarrollador Mobile & Frontend

@@ -8,21 +8,21 @@ import { ExternalLink, Github } from 'lucide-react'
 
 const projects = [
   {
-    title: 'Bluey - App de Gastos e Ingresos',
+    title: 'Bluey Money - App de Gastos e Ingresos',
     description: 'Aplicación móvil multiplataforma para el seguimiento de gastos e ingresos, con gráficos y estadísticas.',
-    image: '/blue_money_banner.png',
+    image: '/bluey_money_app.png',
     tags: ['Flutter', 'Dart', 'Firebase', 'MVVM'],
-    demoUrl: '#',
+    demoUrl: '',
     githubUrl: 'https://github.com/CarlitooooK/BlueMoneey.git'
   },
   
   {
     title: 'Miyo - App de Aprendizaje potenciada por IA',
     description: 'App de aprendizaje adaptativo con IA: Planes de aprendizaje personalizados, rendimiento optimizado y aprendizaje de alta eficiencia para todos con generador de rutas de aprendizaje con Gemini',
-    image: '/modern-admin-dashboard.png',
+    image: '/miyo_project.png',
     tags: ['Android', 'Kotlin', 'Jetpack Compose', 'Firebase', 'Gemini AI'],
-    demoUrl: '#',
-    githubUrl: 'https://github.com/CarlitooooK/Miyo_App.git'
+    demoUrl: 'https://eduhackv1.vercel.app/',
+    githubUrl: 'https://github.com/CarlitooooK/miyo_edu.git'
   },
 ]
 

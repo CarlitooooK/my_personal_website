@@ -16,7 +16,22 @@ export function About() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">
             Sobre Mí
           </h2>
-          <div className="w-20 h-1 bg-primary mb-12" />
+
+          <div className="prose prose-lg max-w-none">
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Mi nombre es Carlo Ignacio Santos Cabrera y soy un desarrollador de software apasionado por crear experiencias digitales excepcionales. 
+              Con experiencia en desarrollo móvil y web, me especializo en construir aplicaciones 
+              que no solo se ven bien, sino que también funcionan de manera fluida y eficiente.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed mt-4">
+              Mi enfoque combina habilidades técnicas sólidas con una atención meticulosa al detalle, 
+              asegurando que cada proyecto cumpla con los más altos estándares de calidad y rendimiento.
+            </p>
+          </div>
+          
+          <div className="w-20 h-1 mb-12" />
+
+          
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <Card className="p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
@@ -47,17 +62,7 @@ export function About() {
             </Card>
           </div>
 
-          <div className="prose prose-lg max-w-3xl">
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Soy un desarrollador apasionado por crear experiencias digitales excepcionales. 
-              Con experiencia en desarrollo móvil y web, me especializo en construir aplicaciones 
-              que no solo se ven bien, sino que también funcionan de manera fluida y eficiente.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed mt-4">
-              Mi enfoque combina habilidades técnicas sólidas con una atención meticulosa al detalle, 
-              asegurando que cada proyecto cumpla con los más altos estándares de calidad y rendimiento.
-            </p>
-          </div>
+          
         </div>
       </div>
     </section>
